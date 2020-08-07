@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registiratsiya</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+   <!-- section  start -->
+   <div class="form">
+       <div class="form-card">
+          <!-- form -->
+           <form action="home.html" method="get">
+            <fieldset>
+             <legend align="center"><h1>Registiratsiya bulimi!</h1></legend>
+              <label for="familya">*Familya</label><br> <input type="text" name="frist name" id="familya" required/>
+              <br>
+               <label for="ism">*ISM</label><br><input type="name" name="name" id="ism" required/>
+               <br>
+               <label for="email">*Email</label><br>
+              <input type="email" name="email" id="email" required/>
+              <br><label for="date">*Tugilgan sanangiz</label><br>
+              <input type="date" name="date" id="date" required/>
+              <br>
+               <label for="viloyat">*Viloyat</label>
+               <br>
+            <select name="viloya" class="cnt" id="viloyat">
+                <option>         -Tanlang-</option>
+                <option value="">Toshkent Shahri</option>
+                <option value="">Toshkent Viloyati</option>
+                <option value="">Qoraqalpoqiston Respublikasi</option>
+                <option value="">Andijon Viloyati</option>
+                <option value="">Farg'ona Viloyati</option>
+                <option value="">Namangan Viloyati</option>
+                <option value="">Sirdaryo Viloyati</option>
+                <option value="">Jizzax Viloyati</option>
+                <option value="">Samarqand Viloyati</option>
+                <option value="">Qashqadaryo Viloyati</option>
+                <option value="">Surxandaryo Viloyati</option>
+                <option value="">Buxoro Viloyati</option>
+                <option value="">Navoiy Viloyati</option>
+                <option value="">Xorazm Viloyati</option>
+            </select>
+              <br>
+              <label for="male">*Jinsinggiz>></label><br>
+            <input id="male" type="radio" name="jinsi"> *Erkak
+            <input id="male" type="radio" name="jinsi" required/> *Ayol
+            <br>
+            <label for="address">*Manzil</label>
+            <br>
+            <textarea  class="cnt" id="address"  cols="30px" rows="10px" required></textarea>
+            <br>
+            <label for="tel">*Telifon nomer</label>
+            <br>
+            <input type="tel" name="phone" id="tel" placeholder="+998" required/><br>
+            <label for="country">*Mamalakat</label>
+            <br>
+            <select class="cnt" name="Mamlakat" id="country"><option>-Tanlang-
+            </option><option value="">Rossiya Fediratsiyasi</option>
+            <option value="">O'zbekiston Respublikasi</option>
+                <option value="">
+                    Qozog'iston Respulikasi
+                </option> 
+            
+            </select>
+            <br>
+            <input type="submit" value="Yuborish">
+            <input type="reset">
+           
+              
+              </fieldset>
+           </form>
+           <!-- form -->
+       </div>
+   </div>
+     <!-- section end -->
+</body>
+</html>
